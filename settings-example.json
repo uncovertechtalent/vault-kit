@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "vault-search": {
+      "command": "uv",
+      "args": ["run", "/absolute/path/to/vault-kit/search/vsearch.py", "serve"],
+      "env": { "VAULT_PATH": "/absolute/path/to/your/vault" }
+    }
+  }
+}
